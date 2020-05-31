@@ -1,0 +1,28 @@
+body {
+background-image: url("tlo.jpg");
+display: block;
+color: yellow;
+font-size: 20px;
+}
+
+h1 {
+text-align: center;
+}
+
+h2 {
+color: orange;
+}
+
+td {
+padding: 50px;
+text-align:center;
+font-size: 20px;
+}
+
+#godzina {
+text-align: right;
+}
+
+#pd1, #pd3, #pd4 {
+text-align: center;
+}
