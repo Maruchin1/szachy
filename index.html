@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+   <head>
+      <title>Szachy</title>
+	<link rel="stylesheet" href="styl.css" type="text/css">
+   </head>
+   <body>
+      <h1>SZACHY</h1>
+	<div id="godzina">
+		<script language="javascript">
+		<!--W3e JAVAscript Preset
+		var timerID = null;
+		var timerRunning = false;
+		function stopclock()
+		{
+    		if(timerRunning)
+        		clearTimeout(timerID)
+    		timerRunning = false;
+		}
+
+		function startclock()
+		{
+    		stopclock();
+    		showtime();
+		}
+
+		function showtime()
+		{
+    		var now = new Date();
+    		var hours = now.getHours();
+    		var minutes = now.getMinutes();
+    		var seconds = now.getSeconds();
+    		var timeValue = "" + ((hours > 12) ? hours - 12 : hours);
+    		timeValue  += ((minutes < 10) ? ":0" : ":") + minutes;
+    		timeValue  += ((seconds < 10) ? ":0" : ":") + seconds;
+   		 timeValue  += (hours >= 12) ? " P.M." : " A.M.";
+   		 document.clock.face.value = timeValue;
+    		timerID = setTimeout("showtime()",1000);
+  		  timerRunning = true;
+		}
+		//-->
+		</script>
+
+		<form name="clock" onSubmit="0">
+  		<input type="text" name="face" size="24">
+		</form>
+
+		<script>startclock();</script>	
+	</div>
+	<div id="menu">
+		<a href="historia.html">HISTORIA SZACHOW</a></br>
+		<a href="zasady.html">ZASADY GRY W SZACHY</a></br>
+		<a href="warianty.html">PRZYKLADOWE DEBIUTY</a></br>
+		<a href="kategorie.html">KATEGORIE I TYTUŁY SZACHOWE</a></br>
+		<a href="profesjonalisci.html">PROFESJONALISCI</a></br>
+		<a href="https://profil.wp.pl/login.html?zaloguj=poczta">POCZTA ELEKTRONICZNA</a></br>
+	</div>
+	<hr>
+	<div id="pd1">O AUTORZE
+	Nazywam się Paweł Piekielny. Mam 17 lat. Jestem zawodowym szachistą. Posiadam tytuł kandydata na mistrza oraz 2104 FIDE. Gram w szachy od 2011 roku.<br>
+	Chcesz się ze mną skontaktować? <br>
+	Naciśnij przycisk: 
+	<FORM>
+	<INPUT TYPE="button" VALUE="Napisz do mnie"  onClick="parent.location.href='mailto:pawelpk.pp@gmail.com'">
+	</FORM>
+	</div>
+	<hr>
+	<div id="pd2">OSIAGNIECIA SZACHOWE
+		<ul>
+			<li>11 miejsce w Półfinałach Mistrzostw Polski Juniorów C14 2017 i awans na Mistrzostwa Polski Juniorów C16 2018</li>
+			<li>4 miejsce w kategorii wiekowej do lat 15 na Mistrzostwach Polski Juniorów 2018 i awans na Mistrzostwa Polski Juniorów C18 2019</li>
+			<li>7 miejsce w ogólnej klasyfikacji na Mistrzostwach Polski Juniorów C16 2019 i 3 miejsce w kategorii wiekowej do lat 16 oraz awans na Mistrzostwa Polski Juniorów C18 2020</li>
+			<li>Awans z III ligi do Drużynowych Mistrzostw Polski Juniorów - II liga - 2018</li>
+			<li>Udział w II lidze Juniorów oraz zajęcie 37 miejsca drużynowo i utrzymanie w II lidze - 2019</li>
+			<li>4 miejsce w kategorii wiekowej do lat 17 na Mistrzostwach Polski Juniorów C18 2020 i awans na Mistrzostwa Polski Juniorów C18 2021</li>
+			
+		</ul>	
+	</div>
+	<hr>
+	<div id="pd3">LICZBA MEDALI<br><br>
+		<center>
+		<table border="2px" bordercolor="yellow">
+			<tr><td>1 miejsce</td><td>2 miejsce</td><td>3 miejsce</td></tr>
+			<tr><td>20</td><td>10</td><td>30</td></tr>
+		</table>
+	</center>
+	</div>
+	<hr>
+	<div id="pd4">GALERIA</br>
+		<center>
+		<table>
+		<tr>
+		<td>
+		<img src="1.jpg">
+		</td>
+		<td>
+		<img src="2.jpg">
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<img src="3.jpg">
+		</td>
+		<td>
+		<img src="4.jpg" height=400, width=500><br>Mistrzostwa Polski Juniorów C18 2020
+		</td>
+		</tr>
+		<tr>
+		<td colspan=2>
+		<img src="5.jpg" height=300, width=400><br>Drużynowe Mistrzostwa Polski - II liga 2019
+		</td>
+		</tr>
+		</table>
+	</div>
+</body>
+</html>
